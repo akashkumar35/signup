@@ -1,0 +1,136 @@
+.main-container {
+    height: 100vh;
+    width: 100vw;
+    background-color: #17a4d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .main-container-child1 {
+        height: 50%;
+        width: 60%;
+        background-color: white;
+        border-radius: 21px;
+
+        .child1-container1 {
+            height: 20%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #12c0c8;
+            font-size: 36px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: bolder;
+        }
+
+        .child1-container2 {
+            height: 80%;
+            width: 100%;
+
+            .container2-mail {
+                height: 25%;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .mail-text {
+
+                    justify-content: center;
+                    align-items: center;
+                    height: 51%;
+                    width: 80%;
+
+                    .input-type {
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 8px;
+                        border-color: #17a4d9;
+
+                    }
+
+                    .text-danger {
+                        color: red;
+                        font-size: 12px;
+                        padding-right: 76px;
+                    }
+
+                }
+
+            }
+
+            .container2-password {
+                height: 25%;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .password-type {
+
+                    justify-content: center;
+                    align-items: center;
+                    height: 51%;
+                    width: 80%;
+
+                    .input-password {
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 8px;
+                        border-color: #17a4d9;
+
+
+                    }
+
+                    .text-pass {
+                        color: red;
+                        font-size: 12px;
+                        padding-right: 51px;
+                    }
+
+                }
+
+            }
+
+            .container2-submit {
+                height: 25%;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .sign-up {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 51%;
+                    width: 80%;
+                    color: whitesmoke;
+                    font-size: 20px;
+                    font-weight: bolder;
+                    background-color: #12c0c8;
+                    border-radius: 8px;
+
+                }
+
+            }
+
+        }
+    }
+
+    .second-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10%;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        color: yellow;
+        .end-page{
+            font-size: larger;
+            color: yellow;
+        }
+    }
+}
